@@ -6,8 +6,8 @@ $msg = "Hello world!\nMy first email through php mail function";
 // atmost 70 characters long
 $msg = wordwrap($msg, 70);
 
-// send email to rcbatfb@gmail.com
-$rv = mail("kansalshubham2006@gmail.com", "PHP mail() check", $msg);
+
+$rv = mail("abc@gmail.com", "PHP mail() check", $msg);
 if ($rv) {
     echo ("mail sent");
 } else {
